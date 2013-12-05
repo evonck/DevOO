@@ -1,0 +1,48 @@
+graph 
+{
+    fill-color: rgb(247, 243, 232);
+}
+
+node 
+{
+    size: 5px;
+    fill-color: rgb(255, 255, 255);
+    stroke-mode: plain;
+    stroke-color: rgb(180, 180, 180);
+}
+
+edge 
+{
+    arrow-shape: none;
+    size: 3px;
+    fill-color: rgb(255, 255, 255);
+    shadow-mode: plain;
+    shadow-color: rgb(180, 180, 180);
+    shadow-width: 2px;
+    shadow-offset: 0px;
+}
+
+node:clicked 
+{
+    fill-color: red;
+}
+
+edge.avenue 
+{
+    size: 5px;
+    fill-color: rgb(252, 253, 211); 
+    shadow-mode: plain;
+    shadow-color: rgb(242, 173, 47);
+    shadow-width: 2px;
+    shadow-offset: 0px;
+}
+
+edge.boulevard 
+{
+    size: 7px;
+    shadow-mode: plain;
+    shadow-color: rgb(200, 122, 0);
+    shadow-width: 2px;
+    shadow-offset: 0px;
+    fill-color: rgb(255, 220, 0); 
+}
