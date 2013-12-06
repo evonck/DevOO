@@ -17,13 +17,10 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-/**
- *
- * @author Aleks
- */
 
 
-public class PlanReader extends DefaultHandler{
+
+public class PlanReader {
     
     private PlanHandler mPlanHandler = new PlanHandler();
     private File mFile;

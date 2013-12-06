@@ -10,6 +10,7 @@ package Tools;
  *
  * @author Eleonore
  */
+/* Classe qui définnit une livraison descendant de la classe node*/
 public class DeliveryNode extends Node {
    private int id;
    private int Nclient;
